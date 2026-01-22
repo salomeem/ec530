@@ -1,6 +1,7 @@
 # Generated this code with Chat GPT, upon suggestion by professor!
 
 import math
+import os
 import pandas as pd
 import numpy as np
 
@@ -124,7 +125,7 @@ def nearest_airport_for_cities(cities_csv, airports_csv, output_csv):
 
 if __name__ == "__main__":
     nearest_airport_for_cities(
-        cities_csv="cities.csv",
-        airports_csv="airports.csv",
-        output_csv="cities_with_nearest_airport.csv",
+        cities_csv="/Users/salome/EC530/exercise_one/Major_Cities_GPS.csv",
+        airports_csv="/Users/salome/EC530/exercise_one/iata-icao.csv",
+        output_csv="/Users/salome/EC530/exercise_one/cities_with_nearest_airport.csv",
     )
